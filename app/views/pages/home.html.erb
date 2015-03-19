@@ -6,23 +6,42 @@
   <%# TODO %>
 <% end %>
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-      <h1>Welcome!</h1>
-
-      <h2>This is the homepage</h2>
-
+<div id="content">
+  <div id="container">
+      <div class="row">
+      <div class="col-xs-12">
+      <h2>Présentation </h2>
       <p>
-        Find me in <code>app/views/pages/home.html.erb</code>
+        Sacha Sardo - 22 ans - Développeur web, freelance web -
+        Spécialisé dans la création de site vitrine.
       </p>
+      </div>
+      </div>
+      <div class="row">
+      <div class="class-xs-6">
+        <%= image_tag "sacha.jpg", class:"img-circle", id:"img-profile"%>
+      </div>
+      <div class="class-xs-6">
+        <li class="curieux">Curieux</li>
+        <li class="curieux">Investi</li>
+        <li class="curieux">Passionné</li>
+      </div>
+    </div>
+      <div class="card">
+        <h2>Compétences </h2>
+        <p>
+          HTLM - CSS - Ruby - Rails - Javascript - JQuery
+        </p>
+      </div>
 
-      <p>
-        Thanks to the <a href="https://github.com/thoughtbot/high_voltage">high_voltage</a>
-        gem, if you need more static pages (like <code>/contact</code> or <code>/about-us</code>),
-        just create a file in the <code>app/views/pages</code> folder, the route will be automatically
-        available without you adding any controller or touching the <code>config/routes.rb</code> file!
-      </p>
+      <div class="card">
+        <h2>Portfolio </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptates aperiam cupiditate distinctio ipsa nisi possimus minus adipisci amet doloribus laborum corporis, facilis soluta veritatis quaerat debitis temporibus laboriosam at.</p>
+      </div>
+      <div class="card">
+        <h2>Contact </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, perferendis, impedit magnam voluptatem recusandae perspiciatis culpa ipsam optio harum vero numquam enim nostrum quibusdam laboriosam dignissimos natus est reiciendis dolores.</p>
+      </div>
     </div>
   </div>
 </div>
